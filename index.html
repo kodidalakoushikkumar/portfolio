@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Koushik's IT Support and aspiring DevOps Engineer portfolio.">
+  <title>Koushik | DevOps Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="prompt">&gt;_</span> Koushik</a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+        <a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Hi, I'm Koushik</p>
+        <h1>IT Support Engineer<br>&amp; Aspiring <span>DevOps Engineer</span></h1>
+        <p class="intro">I'm an IT Support professional with a Computer Science background, interested in automation, cloud technologies, and building reliable systems.</p>
+        <div class="actions">
+          <a class="button primary" href="#projects">View Projects <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="social-links">
+          <!-- Replace # with your real profile URLs -->
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="mailto:your-email@example.com">Email ↗</a>
+        </div>
+      </div>
+      <div class="terminal-card" aria-label="DevOps workflow illustration">
+        <div class="terminal-top"><i></i><i></i><i></i><span>koushik@devops:~</span></div>
+        <div class="terminal-body">
+          <p><span class="terminal-green">$</span> whoami</p><p class="terminal-muted">IT Support Engineer</p>
+          <p><span class="terminal-green">$</span> focus --current</p><p class="terminal-muted">Linux · Docker · Git · CI/CD</p>
+          <p><span class="terminal-green">$</span> goal</p><p class="terminal-blue">Automate. Deploy. Monitor.</p>
+          <p class="cursor-line"><span class="terminal-green">$</span> <span class="cursor"></span></p>
+        </div>
+        <div class="pipeline"><span>Code</span><b>→</b><span>Build</span><b>→</b><span>Deploy</span></div>
+      </div>
+    </section>
+
+    <section class="section container about-grid" id="about">
+      <div>
+        <p class="section-kicker">A little about me</p>
+        <h2>Learning by building.</h2>
+        <p class="body-copy">I work in IT Support, solving everyday hardware, operating system, and troubleshooting issues. I'm growing my skills in DevOps by practicing Linux, version control, containers, automation, and cloud fundamentals.</p>
+        <div class="facts"><span>⌖ India</span><span>◇ CSE Background</span><span>⌘ IT Support</span></div>
+      </div>
+      <aside class="focus-card">
+        <h3>What I'm working on</h3>
+        <ul>
+          <li><span>✓</span> Strengthening Linux and networking basics</li>
+          <li><span>✓</span> Practicing Git and Docker</li>
+          <li><span>✓</span> Learning CI/CD with GitHub Actions</li>
+          <li><span>✓</span> Building and documenting small projects</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="section-kicker">My toolkit</p>
+      <h2>Skills &amp; technologies</h2>
+      <div class="skills">
+        <span>Linux</span><span>Windows</span><span>Networking</span><span>Git</span>
+        <span>GitHub</span><span>Docker</span><span>CI/CD</span><span>Bash basics</span>
+        <span>Python basics</span><span>AWS fundamentals</span><span>Nginx</span><span>Troubleshooting</span>
+      </div>
+      <p class="hint">Edit this list as you gain hands-on experience. Only list tools you can explain or demonstrate.</p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <div><p class="section-kicker">Things I've built</p><h2>Featured projects</h2></div>
+        <span class="small-note">Replace sample links with your repositories</span>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-icon blue">⌘</div><p class="project-type">01 / WEB</p>
+          <h3>DevOps Portfolio</h3><p>A responsive portfolio website built with HTML and CSS, ready to publish using GitHub Pages.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>GitHub Pages</span></div>
+          <a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">View repository ↗</a>
+        </article>
+        <article class="project-card">
+          <div class="project-icon green">▣</div><p class="project-type">02 / CONTAINERS</p>
+          <h3>Dockerized Web App</h3><p>Package a simple website into a container and run it locally with Docker.</p>
+          <div class="tags"><span>Docker</span><span>Nginx</span><span>Linux</span></div>
+          <a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">View repository ↗</a>
+        </article>
+        <article class="project-card">
+          <div class="project-icon purple">⟳</div><p class="project-type">03 / AUTOMATION</p>
+          <h3>CI/CD Pipeline</h3><p>Use GitHub Actions to validate changes and automatically publish the site.</p>
+          <div class="tags"><span>GitHub Actions</span><span>CI/CD</span><span>Automation</span></div>
+          <a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">View repository ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div><p class="section-kicker">Get in touch</p><h2>Let's connect.</h2><p class="body-copy">Have a project idea or want to discuss DevOps and IT? You can reach me through the links below.</p></div>
+      <div class="contact-links">
+        <a href="mailto:your-email@example.com"><span>Email</span><b>your-email@example.com ↗</b></a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer"><span>GitHub</span><b>github.com/your-username ↗</b></a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span>LinkedIn</span><b>linkedin.com/in/your-profile ↗</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><span>© <span id="year"></span> Koushik</span><span>Built with HTML, CSS &amp; JavaScript</span><a href="#home">Back to top ↑</a></div></footer>
+</body>
+</html>
